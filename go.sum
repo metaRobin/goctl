@@ -188,6 +188,8 @@ github.com/zeromicro/ddl-parser v1.0.5 h1:LaVqHdzMTjasua1yYpIYaksxKqRzFrEukj2Wi2
 github.com/zeromicro/ddl-parser v1.0.5/go.mod h1:ISU/8NuPyEpl9pa17Py9TBPetMjtsiHrb9f5XGiYbo8=
 github.com/zeromicro/go-zero v1.7.3 h1:yDUQF2DXDhUHc77/NZF6mzsoRPMBfldjPmG2O/ZSzss=
 github.com/zeromicro/go-zero v1.7.3/go.mod h1:9JIW3gHBGuc9LzvjZnNwINIq9QdiKu3AigajLtkJamQ=
+github.com/zeromicro/go-zero/tools/goctl v1.7.3 h1:Ym5G90vK5h2afFkAWtjRxqfhder+CLhWkUWuBKXTAng=
+github.com/zeromicro/go-zero/tools/goctl v1.7.3/go.mod h1:Mgl++dftDC3Xkyz+UzuBoDefWQgJuJdY+LawmpqesKo=
 go.etcd.io/etcd/api/v3 v3.5.15 h1:3KpLJir1ZEBrYuV2v+Twaa/e2MdDCEZ/70H+lzEiwsk=
 go.etcd.io/etcd/api/v3 v3.5.15/go.mod h1:N9EhGzXq58WuMllgH9ZvnEr7SI9pS0k0+DHZezGp7jM=
 go.etcd.io/etcd/client/pkg/v3 v3.5.15 h1:fo0HpWz/KlHGMCC+YejpiCmyWDEuIpnTDzpJLB5fWlA=
