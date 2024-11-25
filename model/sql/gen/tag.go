@@ -1,9 +1,9 @@
 package gen
 
 import (
-	"github.com/zeromicro/go-zero/tools/goctl/model/sql/template"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/metaRobin/goctl/model/sql/template"
+	"github.com/metaRobin/goctl/util"
+	"github.com/metaRobin/goctl/util/pathx"
 )
 
 func genTag(table Table, in string) (string, error) {

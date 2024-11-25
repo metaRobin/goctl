@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/metaRobin/goctl/api/parser"
+	"github.com/metaRobin/goctl/pkg/env"
+	"github.com/metaRobin/goctl/rpc/execx"
+	"github.com/metaRobin/goctl/util/pathx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/tools/goctl/api/parser"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/env"
-	"github.com/zeromicro/go-zero/tools/goctl/rpc/execx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 var (

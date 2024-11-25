@@ -11,13 +11,13 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/metaRobin/goctl/api/parser"
+	"github.com/metaRobin/goctl/api/util"
+	"github.com/metaRobin/goctl/pkg/env"
+	apiF "github.com/metaRobin/goctl/pkg/parser/api/format"
+	"github.com/metaRobin/goctl/util/pathx"
 	"github.com/spf13/cobra"
 	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/tools/goctl/api/parser"
-	"github.com/zeromicro/go-zero/tools/goctl/api/util"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/env"
-	apiF "github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/format"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 const (

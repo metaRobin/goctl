@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/gookit/color"
+	"github.com/metaRobin/goctl/api/parser"
+	"github.com/metaRobin/goctl/util/pathx"
 	"github.com/spf13/cobra"
 	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/tools/goctl/api/parser"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 var (

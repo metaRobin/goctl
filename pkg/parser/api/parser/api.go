@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/metaRobin/goctl/pkg/parser/api/ast"
+	"github.com/metaRobin/goctl/pkg/parser/api/importstack"
+	"github.com/metaRobin/goctl/pkg/parser/api/placeholder"
+	"github.com/metaRobin/goctl/pkg/parser/api/token"
 	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/ast"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/importstack"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/placeholder"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/token"
 )
 
 const (

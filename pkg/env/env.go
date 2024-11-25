@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zeromicro/go-zero/tools/goctl/internal/version"
-	sortedmap "github.com/zeromicro/go-zero/tools/goctl/pkg/collection"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/protoc"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/protocgengo"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/protocgengogrpc"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/metaRobin/goctl/internal/version"
+	sortedmap "github.com/metaRobin/goctl/pkg/collection"
+	"github.com/metaRobin/goctl/pkg/protoc"
+	"github.com/metaRobin/goctl/pkg/protocgengo"
+	"github.com/metaRobin/goctl/pkg/protocgengogrpc"
+	"github.com/metaRobin/goctl/util/pathx"
 )
 
 var goctlEnv *sortedmap.SortedMap

@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/metaRobin/goctl/config"
+	"github.com/metaRobin/goctl/model/mongo/generate"
+	file "github.com/metaRobin/goctl/util"
+	"github.com/metaRobin/goctl/util/pathx"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/model/mongo/generate"
-	file "github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 var (
@@ -29,6 +29,8 @@ var (
 	VarStringRemote string
 	// VarStringBranch describes the git branch.
 	VarStringBranch string
+	// VarPackageName describes custom package name.
+	VarPackageName string
 )
 
 // Action provides the entry for goctl mongo code generation.
@@ -41,6 +43,7 @@ func Action(_ *cobra.Command, _ []string) error {
 	home := VarStringHome
 	remote := VarStringRemote
 	branch := VarStringBranch
+	packageName := VarPackageName
 
 	if len(remote) > 0 {
 		repo, _ := file.CloneIntoGitHome(remote, branch)
@@ -71,17 +74,12 @@ func Action(_ *cobra.Command, _ []string) error {
 		return err
 	}
 
-	baseDir := filepath.Base(a)
-	if baseDir == "" || baseDir == "." {
-		baseDir = "model" // as default
-	}
-
 	return generate.Do(&generate.Context{
 		Types:  tp,
 		Cache:  c,
 		Easy:   easy,
 		Output: a,
 		Cfg:    cfg,
-		PackageName: baseDir,
+		PackageName: packageName,
 	})
 }

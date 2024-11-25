@@ -5,11 +5,11 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/metaRobin/goctl/model/sql/template"
+	"github.com/metaRobin/goctl/util"
+	"github.com/metaRobin/goctl/util/pathx"
+	"github.com/metaRobin/goctl/util/stringx"
 	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/tools/goctl/model/sql/template"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/stringx"
 )
 
 // Field describes a table field

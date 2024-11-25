@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/zeromicro/go-zero/tools/goctl/internal/cobrax"
-	"github.com/zeromicro/go-zero/tools/goctl/model/mongo"
-	"github.com/zeromicro/go-zero/tools/goctl/model/sql/command"
+	"github.com/metaRobin/goctl/internal/cobrax"
+	"github.com/metaRobin/goctl/model/mongo"
+	"github.com/metaRobin/goctl/model/sql/command"
 )
 
 var (
@@ -67,6 +67,7 @@ func init() {
 	mongoCmdFlags.StringVar(&mongo.VarStringHome, "home")
 	mongoCmdFlags.StringVar(&mongo.VarStringRemote, "remote")
 	mongoCmdFlags.StringVar(&mongo.VarStringBranch, "branch")
+	mongoCmdFlags.StringVarWithDefaultValue(&mongo.VarPackageName, "package", "model")
 
 	mysqlCmd.PersistentFlags().BoolVar(&command.VarBoolStrict, "strict")
 	mysqlCmd.PersistentFlags().StringSliceVarPWithDefaultValue(&command.VarStringSliceIgnoreColumns,

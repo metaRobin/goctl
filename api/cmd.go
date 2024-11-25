@@ -1,20 +1,20 @@
 package api
 
 import (
+	"github.com/metaRobin/goctl/api/apigen"
+	"github.com/metaRobin/goctl/api/dartgen"
+	"github.com/metaRobin/goctl/api/docgen"
+	"github.com/metaRobin/goctl/api/format"
+	"github.com/metaRobin/goctl/api/gogen"
+	"github.com/metaRobin/goctl/api/javagen"
+	"github.com/metaRobin/goctl/api/ktgen"
+	"github.com/metaRobin/goctl/api/new"
+	"github.com/metaRobin/goctl/api/tsgen"
+	"github.com/metaRobin/goctl/api/validate"
+	"github.com/metaRobin/goctl/config"
+	"github.com/metaRobin/goctl/internal/cobrax"
+	"github.com/metaRobin/goctl/plugin"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/api/apigen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/dartgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/docgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/format"
-	"github.com/zeromicro/go-zero/tools/goctl/api/gogen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/javagen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/ktgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/new"
-	"github.com/zeromicro/go-zero/tools/goctl/api/tsgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/validate"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/internal/cobrax"
-	"github.com/zeromicro/go-zero/tools/goctl/plugin"
 )
 
 var (

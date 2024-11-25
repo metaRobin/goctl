@@ -12,15 +12,15 @@ import (
 	"time"
 
 	"github.com/gookit/color"
+	apiformat "github.com/metaRobin/goctl/api/format"
+	"github.com/metaRobin/goctl/api/parser"
+	apiutil "github.com/metaRobin/goctl/api/util"
+	"github.com/metaRobin/goctl/config"
+	"github.com/metaRobin/goctl/pkg/golang"
+	"github.com/metaRobin/goctl/util"
+	"github.com/metaRobin/goctl/util/pathx"
 	"github.com/spf13/cobra"
 	"github.com/zeromicro/go-zero/core/logx"
-	apiformat "github.com/zeromicro/go-zero/tools/goctl/api/format"
-	"github.com/zeromicro/go-zero/tools/goctl/api/parser"
-	apiutil "github.com/zeromicro/go-zero/tools/goctl/api/util"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/golang"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 const tmpFile = "%s-%d"
